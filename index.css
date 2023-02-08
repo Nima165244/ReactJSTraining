@@ -1,10 +1,22 @@
 body{  
   font-family: 'Times New Roman', Times, serif  ;
-  background-color: rgb(21, 22, 22);  
+  background-color: rgb(233, 241, 241);  
 } 
 .container {  
   padding: 100px;  
-background-color: darkcyan;  
+ /*background-color: rgb(131, 199, 199);  */
+ background-image: url("image2.jpg");  
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+ max-width: 500px;
+ margin:auto;
+}
+.heading{
+ height:50px;
+  max-width: 700px;
+  background-color:azure;
+ margin:auto;
 }
 div {  
   padding: 80px 0;  
@@ -29,7 +41,7 @@ input[type=text]:focus {
   margin: 5px 0;  
   border: none;  
   cursor: pointer;  
-  width: 10%;  
+  width: 30%;  
   opacity: 0.9;  
 }  
 .registerbtn:hover {  
