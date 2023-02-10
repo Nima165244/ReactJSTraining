@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    
+        <head>
+          <title>Registration Form</title>
+          <link rel="stylesheet" href="index.css"/>
+        </head>
+        <body>
+            
+            <center><h1 class ="heading">Registration Form</h1></center>
+         
+            <form>  
+                 
+            <div class="container">
+            <h3>Please enter the details to register:</h3>
+            <label>First Name</label>
+            <input type = "text" placeholder ="Enter Firstname" required/>
+            <br><br>
+            <label>Last Name</label>
+            <input type ="text" placeholder="Enter Lastname" required/>
+            <br><br>
+            <label>Age</label>
+            <select>  
+                <option value="18">18</option>  
+                <option value="19">19</option>  
+                <option value="20">20</option>  
+                <option value="21">21</option>  
+                <option value="22">22</option>  
+                <option value="23">23</option>  
+                <option value="24">24</option>  
+                </select>
+                <br><br>
+                <label>Gender</label><br>
+                <input type="radio" name="gender" checked = "true"/> Male <br>  
+                <input type="radio" name="gender"/> Female <br>  
+                <input type="radio" name="gender"/> Other  
+                <br><br>
+                <label>DOB :</label>
+                <input type ="date" placeholder="Enter DOB"/>
+                <br><br>
+                <label>Email id:</label><br>
+                <input type ="email" name="email"/><br><br>
+                <label>Password</label><br>
+                <input type="password" placeholder="Enter password" name ="password"/>
+                <br><br>
+                <label>Upload ID proof</label><br>
+                <input type ="file" name="file"/><br><br>
+                <p>Click <a href="https://www.google.com/">here</a> to login</p>
+                <br>
+                <button type="submit" class="registerbtn">Register</button><br><br>
+                <input type="button" value ="Click me" onclick="alert('Hello All')"/>
+               <!-- <input type="button" value="Submit"/> -->
+                </div>
+                </form> 
+        </body>
+    
+</html>
