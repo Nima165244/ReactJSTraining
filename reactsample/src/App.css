@@ -1,0 +1,77 @@
+
+ 
+.messages{
+  display: flex;
+  justify-content: center;
+}
+ 
+.error{
+  display: block;
+  color: red;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+ 
+.success{
+  display: block;
+  background-color: lightblue;
+  color: black;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+}
+.registerbtn {  
+  background-color: #4845f7;  
+  color: white;  
+  padding: 10px 20px;  
+  margin: 5px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 30%;  
+  opacity: 0.9;  
+}  
+input[type=text], input[type=password],textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+} 
+input[type=text]:focus,input[type=password]:focus {  
+  background-color: rgb(211, 191, 191);  
+  outline: none;  
+}   
+.heading{
+  height:50px;
+   max-width: 700px;
+   background-color:azure;
+  margin:auto;
+  text-align: center;
+ }
+ div {  
+   padding: 5px 0;  
+ }
+ body{  
+  font-family: roboto,"Noto Sans Myanmar UI",arial,sans-serif ;
+  background-color: rgb(233, 241, 241);  
+} 
+.container {  
+  padding: 100px;  
+ background-color: rgb(131, 199, 199);  
+ background-repeat: no-repeat;
+ background-image: url("IMG.jpg"); 
+ 
+ background-attachment: fixed;
+ background-size: 100% 100%;
+ max-width: 500px;
+ margin:auto;
+ 
+}
+.heading{
+  height:50px;
+   max-width: 700px;
+   background-color:azure;
+  margin:auto;
+ }
