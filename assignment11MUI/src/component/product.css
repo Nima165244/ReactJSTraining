@@ -1,0 +1,39 @@
+.features{
+    float: left;
+   
+  }
+  .button{
+    margin-right :10px;
+    text-align: center;
+  }
+  .h5{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+  }
+  .price{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+  }
+  .desc{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+  }
+  .heading{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 200%;
+  }
+  .btn {  
+    height: 35px;
+      margin-left :10px;
+     font-weight: bold;
+     background-color: rgb(70, 25, 153);
+     color: #fff;
+      border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);  
+  } 
+  
