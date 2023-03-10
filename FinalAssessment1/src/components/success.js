@@ -4,6 +4,8 @@ import {Link, useLocation} from 'react-router-dom'
 import { Data } from './utils/Data';
 import "chart.js/auto";
 import Sidebar from './sidebar';
+import LineChart from './charts/LineChart'
+import PieChart from './charts/PieChart'
 function Success() {   
     let location=useLocation(); 
     const [chartData, setChartData] = useState({
@@ -30,7 +32,15 @@ function Success() {
 <Sidebar />
         <h1>Success Login</h1>
         <BarChart chartData={chartData} />
-
+        <br/>
+        <br />
+        <br />
+        <LineChart />
+        <br/>
+        <br />
+        <br />
+        <PieChart />
+        
         <br/>
         <br />
         <br />
